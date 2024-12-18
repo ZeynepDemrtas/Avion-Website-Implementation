@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #2A254B;
+}
+
+/*NAVBAR*/
+.navbar .top-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 26px;
+}
+
+.navbar .top-navbar {
+    display: flex;
+    justify-content: space-between;
+    justify-self: center;
+}
+.navbar .top-navbar .main-title .title-logo {
+    font-family: 'Clash Display';
+    font-size: 24px;
+    color: #22202E;
+}
+
+.navbar .nav-divider {
+    border-top: 1px solid;
+    width: 1386px;
+    display: flex;
+    color: color-mix(in oklab, #FFFFFF 50%, #000000 10%);
+    margin: 20px;
+    justify-self: center;
+
+}
+
+.category-links {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    list-style: none;
+    gap: 44px;
+}
+
+.navbar .category-links a {
+    font-family: 'Satoshi', sans-serif;
+    font-size: 16px;
+    color: #726E8D;
+    text-decoration: none;
+    display: flex;
+}
+
+/*HERO*/
+.hero-section .container {
+    background-color: #2A254B;
+    width: 1280px;
+    height: 584px;
+    justify-self: center;
+    margin: 80px 60px 60px 80px;
+    list-style: none;
+    
+    display: flex; /* defines a flex container*/
+    flex-flow: column wrap; /* shortand for wrap and direction setting */
+}
+
+.hero-section .container .left-container {
+    padding: 4rem;
+}
+
+.hero-section .container .top-content {
+    margin-bottom: 250px;
+}
+
+.hero-section .container .top-content .tagline {
+    color: white;
+    font-size: 32px;
+    font-family: 'Clash Display';
+    width: 513px;
+    height: 90px;
+}
+
+.hero-section .container .top-content .top-button-products button{
+    width: 170px;
+    height: 56px;
+    background-color: #4E4D93;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.hero-section .container .top-content .top-button-products button:hover{
+    background-color: rgba(24, 100, 171, 0.1);
+}
+
+.hero-section .container .top-content .top-button-products .button-products .text-button-products {
+    color: #F9F9F9;
+    font-size: 16px;
+    font-family: 'Satoshi';
+}
+
+.hero-section .container .description {
+    color: white;
+    font-size: 18px;
+    font-family: 'Satoshi';
+    max-width: 602px;
+    text-align: justify;
+}
+
+.hero-section .container .img_container img {
+    max-width: 520px;
+    max-height: 584px;
+}
+
+/*FEATURES*/
+.features-container {
+	max-width: 1280px;
+    max-height: 584px;
+	margin: 80px 60px 60px 80px;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-self: center;
+}
+
+.features-container #features-title {
+	font-family:'Clash Display';
+	font-size: 24px;
+	display: flex;
+	align-self: center;
+	padding-bottom: 51px;
+	padding-top: 60px;
+}
+
+.features {
+	display: flex;
+    list-style: none;
+    gap: 58px;
+}
+
+.features .feature-title {
+	font-size: 20px;
+	font-family: 'Clash Display';
+}
+
+.features .feature-desc {
+	font-size: 16px;
+	font-family: 'Satoshi';
+	padding-top: 8px;
+	padding-bottom: 86px;
+}
+
+/* LISTING */
+
+.listing-container {
+	max-width: 1280px;
+    max-height: 584px;
+	margin: 80px 60px 60px 80px;
+	list-style: none;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-self: center;
+	justify-content: center;
+}
+
+.listing-container a{
+	text-decoration: none;
+}
+
+.listing-container .list-title {
+	font-size: 32px;
+	font-family: 'Clash Display';
+	padding-top: 80px;
+	padding-bottom: 33px;
+}
+
+.product-card .img-product img{
+	width: 305px;
+	height: 375px;
+}
+
+.product-card .img-product-special img{
+	width: 630px;
+	height: 375px;
+}
+
+.product-cards {
+	display: flex;
+	list-style: none;
+	gap: 20px;
+}
+
+.product-card .product-details .listed-product-name {
+	font-size: 20px;
+	font-family: 'Clash Display';
+	padding-top: 24px;
+}
+
+.product-card .product-details .listed-product-price {
+	font-size: 18px;
+	font-family: 'Satoshi';
+	padding-top: 8px;
+	padding-bottom: 35px;
+}
+
+.ceramics-button-products{
+	display: flex;
+	align-self: center;
+	padding-bottom: 48px;
+}
+
+.ceramics-button-products button{
+	width: 170px;
+    height: 56px;
+    background-color: #F9F9F9;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+}
+.ceramics-button-products button:hover {
+	background-color: #4E4D93;
+}
+
+.popular-button-products{
+	display: flex;
+	align-self: center;
+	padding-bottom: 48px;
+}
+
+.popular-button-products button{
+	width: 170px;
+    height: 56px;
+    background-color: #F9F9F9;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.text-button-products {
+	font-size: 16px;
+	font-family: 'Satoshi';
+}
+
+
+/*EMAIL-SIGN-UP*/
+.email-sign-up .sign-up-container {
+	background-color: #F9F9F9;
+    width: 100%;
+	height: 481px;
+	align-content: center;
+}
+
+.email-sign-up .sign-up-container .in-container {
+	width: 1273px;
+	height: 364px;
+	background-color: #FFFFFF;
+	justify-self: center;
+}
+
+.email-sign-up .sign-up-container .in-container .sign-up-title {
+	font-family: 'Clash Display';
+	font-size: 36px;
+	justify-self: center;
+	padding-top: 68px;
+	padding-bottom: 16px;
+}
+
+.email-sign-up .sign-up-container .in-container .sign-up-desc {
+	font-family: 'Satoshi';
+	font-size: 16px;
+	justify-self: center;
+	width: 470px;
+	height: 48px;
+	text-align: center;
+}
+
+
+.email-sign-up .sign-up-container .in-container .sign-up-text-input {
+	justify-self: center;
+	padding-top:72px;
+	
+}
+
+.email-sign-up .sign-up-container .in-container .sign-up-text-input .sign-up-button-link button{
+	width:118px; 
+	height:56px;
+	border: none;
+	background-color: #2A254B;
+	color: white;
+	font-size: 16px;
+	font-family: 'Satoshi';
+}
+
+/*FEATURES*/
+
+.features-section2 .container {
+	display: flex;
+	list-style: none;
+}
+
+.features-section2 .container .left-container-content {
+}
+
+.features-section2 .container .left_container-content .contact-button .button-contact {
+	margin-top : 196px;
+	margin-bottom: 54px;
+}
+
+
+.features-section2 .container .left_container-content .contact-button button {
+	width: 150px;
+	height: 56px;
+	background-color: #F9F9F9;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.features-section2 .container .left_container-content .contact-button .button-contact span {
+	font-size: 16px;
+	font-family: 'Satoshi';
+	color: #2A254B;
+}
+
+.features-section2 .container .left_container-content .features_tagline p {
+	max-width: 514px;
+	max-height: 68px;
+	font-family: 'Clash Display';
+	font-size: 24px;
+}
+
+.features-section2 .container .left_container-content .features_desc p {
+	font-family: 'Satoshi';
+	font-size: 16px;
+}
+
+.features-section2 .container .left_container-content .features_desc {
+	margin-top: 25px;
+}
+

@@ -23,7 +23,7 @@ body {
     justify-self: center;
 }
 .navbar .top-navbar .main-title .title-logo {
-    font-family: 'Clash Display';
+    font-family: 'Clash Display', serif;
     font-size: 24px;
     color: #22202E;
 }
@@ -78,7 +78,7 @@ body {
 .hero-section .container .top-content .tagline {
     color: white;
     font-size: 32px;
-    font-family: 'Clash Display';
+    font-family: 'Clash Display', serif;
     width: 513px;
     height: 90px;
 }
@@ -99,13 +99,13 @@ body {
 .hero-section .container .top-content .top-button-products .button-products .text-button-products {
     color: #F9F9F9;
     font-size: 16px;
-    font-family: 'Satoshi';
+    font-family: 'Satoshi', sans-serif;
 }
 
 .hero-section .container .description {
     color: white;
     font-size: 18px;
-    font-family: 'Satoshi';
+    font-family: 'Satoshi', sans-serif;
     max-width: 602px;
     text-align: justify;
 }
@@ -126,7 +126,7 @@ body {
 }
 
 .features-container #features-title {
-	font-family:'Clash Display';
+	font-family:'Clash Display', serif;
 	font-size: 24px;
 	display: flex;
 	align-self: center;
@@ -142,12 +142,12 @@ body {
 
 .features .feature-title {
 	font-size: 20px;
-	font-family: 'Clash Display';
+	font-family: 'Clash Display', serif;
 }
 
 .features .feature-desc {
 	font-size: 16px;
-	font-family: 'Satoshi';
+	font-family: 'Satoshi', sans-serif;
 	padding-top: 8px;
 	padding-bottom: 86px;
 }
@@ -171,7 +171,7 @@ body {
 
 .listing-container .list-title {
 	font-size: 32px;
-	font-family: 'Clash Display';
+	font-family: 'Clash Display', serif;
 	padding-top: 80px;
 	padding-bottom: 33px;
 }
@@ -194,13 +194,13 @@ body {
 
 .product-card .product-details .listed-product-name {
 	font-size: 20px;
-	font-family: 'Clash Display';
+	font-family: 'Clash Display', serif;
 	padding-top: 24px;
 }
 
 .product-card .product-details .listed-product-price {
 	font-size: 18px;
-	font-family: 'Satoshi';
+	font-family: 'Satoshi', sans-serif;
 	padding-top: 8px;
 	padding-bottom: 35px;
 }
@@ -240,7 +240,7 @@ body {
 
 .text-button-products {
 	font-size: 16px;
-	font-family: 'Satoshi';
+	font-family: 'Satoshi', sans-serif;
 }
 
 
@@ -260,7 +260,7 @@ body {
 }
 
 .email-sign-up .sign-up-container .in-container .sign-up-title {
-	font-family: 'Clash Display';
+	font-family: 'Clash Display', serif;
 	font-size: 36px;
 	justify-self: center;
 	padding-top: 68px;
@@ -268,7 +268,7 @@ body {
 }
 
 .email-sign-up .sign-up-container .in-container .sign-up-desc {
-	font-family: 'Satoshi';
+	font-family: 'Satoshi', sans-serif;
 	font-size: 16px;
 	justify-self: center;
 	width: 470px;
@@ -290,7 +290,7 @@ body {
 	background-color: #2A254B;
 	color: white;
 	font-size: 16px;
-	font-family: 'Satoshi';
+	font-family: 'Satoshi', sans-serif;
 }
 
 /*FEATURES*/
@@ -300,16 +300,14 @@ body {
 	list-style: none;
 }
 
-.features-section2 .container .left-container-content {
+.features-section2 .container .left_container-content {
+	margin-left: 84px;
+	margin-right: 100px;
 }
-
-.features-section2 .container .left_container-content .contact-button .button-contact {
-	margin-top : 196px;
-	margin-bottom: 54px;
-}
-
 
 .features-section2 .container .left_container-content .contact-button button {
+	margin-top : 196px;
+	margin-bottom: 54px;
 	width: 150px;
 	height: 56px;
 	background-color: #F9F9F9;
@@ -320,23 +318,33 @@ body {
 
 .features-section2 .container .left_container-content .contact-button .button-contact span {
 	font-size: 16px;
-	font-family: 'Satoshi';
+	font-family: 'Satoshi', sans-serif;
 	color: #2A254B;
 }
 
 .features-section2 .container .left_container-content .features_tagline p {
+	margin-top: 72px;
 	max-width: 514px;
 	max-height: 68px;
-	font-family: 'Clash Display';
+	font-family: 'Clash Display', serif;
 	font-size: 24px;
 }
 
 .features-section2 .container .left_container-content .features_desc p {
-	font-family: 'Satoshi';
+	font-family: 'Satoshi', sans-serif;
 	font-size: 16px;
 }
 
 .features-section2 .container .left_container-content .features_desc {
 	margin-top: 25px;
+	max-width: 536px;
+	max-height: 132px;
 }
 
+.features-section2 .container .img_container2 {
+	width: 720px;
+	height: 603px;
+
+}
+
+/* FOOTER */
